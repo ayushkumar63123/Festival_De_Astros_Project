@@ -1,0 +1,3 @@
+Please use the below url to download flipkart_data.csv and copy it to the main.py file for the app to function properly.
+URL:-
+https://drive.google.com/file/d/19N-dnXwCRTMFh9YfxEKF9f7qVhd2geNI/view?usp=sharing
