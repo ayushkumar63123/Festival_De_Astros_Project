@@ -1,0 +1,56 @@
+<html>
+    <head> 
+        <title>THE AK COMMERCE WEBSITE</title>
+        <script>
+        </script>
+    </head>
+        <body>
+        <style>
+            body {
+                background-color: aqua;
+            }
+
+            #div_menu {
+                background-color: burlywood;
+            }
+        </style>
+        <font color = "red">
+        <h1>Welcome to AK Commerce chat site! Hope you get your queries solved!</h1>
+        </font>
+        <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "96340662-943d-4871-bae3-e3662c8a494e", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "4da7f3d0-0a7d-42b2-910f-3fe635a51c82", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+
+        function function_menu_visibility() {
+            if (document.getElementById("div_menu").style.display == "none") {
+                document.getElementById("div_menu").style.display = "inline-block";
+            }
+            else {
+                document.getElementById("div_menu").style.display = "none";
+            }
+        }
+        </script>
+        <font color = "purple">
+        <marquee direction = "right">Thanks for using our app!</marquee>
+        </font>
+        <button onclick = "function_menu_visibility()">Menu</button>
+        <font color = "green">
+            <div id = "div_menu" style = "display: none;">
+            <ul type = "bullet">
+                <li>About the Developer</li>
+                <li>About the app</li>
+                <li>Technology used</li>
+            </ul>
+            </div>
+        </font>
+    </body>
+</html>
